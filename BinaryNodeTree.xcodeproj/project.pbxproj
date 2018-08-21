@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A6DB0EDF212C10DD00005209 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0EDE212C10DD00005209 /* main.swift */; };
+		A6DB0EE6212C112200005209 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0EE5212C112200005209 /* Tree.swift */; };
+		A6DB0EE8212C119100005209 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0EE7212C119100005209 /* Node.swift */; };
+		A6DB0EEA212C123500005209 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DB0EE9212C123500005209 /* BinaryNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		A6DB0EDB212C10DD00005209 /* BinaryNodeTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryNodeTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DB0EDE212C10DD00005209 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A6DB0EE5212C112200005209 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		A6DB0EE7212C119100005209 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		A6DB0EE9212C123500005209 /* BinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				A6DB0EDE212C10DD00005209 /* main.swift */,
+				A6DB0EE5212C112200005209 /* Tree.swift */,
+				A6DB0EE7212C119100005209 /* Node.swift */,
+				A6DB0EE9212C123500005209 /* BinaryNode.swift */,
 			);
 			path = BinaryNodeTree;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DB0EE8212C119100005209 /* Node.swift in Sources */,
 				A6DB0EDF212C10DD00005209 /* main.swift in Sources */,
+				A6DB0EEA212C123500005209 /* BinaryNode.swift in Sources */,
+				A6DB0EE6212C112200005209 /* Tree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
